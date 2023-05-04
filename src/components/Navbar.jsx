@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <AppBar sx={{position: 'static', margin: 0}}>
+    <AppBar sx={{position: 'sticky', margin: 0}}>
       <Container maxWidth="xl" sx={{backgroundColor:'#0C2D48'}}>
         <Toolbar disableGutters>
           <CalculateIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -24,8 +24,7 @@ const Navbar = () => {
               textDecoration: 'none',
             }}
           >
-            <Link to="/" style={{textDecoration: "none", color: "white"}}>Thale's Theorem</Link>
-            
+          <Link to="/" style={{textDecoration: "none", color: "white"}}>Thale's Theorem</Link>
           </Typography>
           <Typography
             variant="h6"

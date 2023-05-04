@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
-import Image from './pic5.jpg'
+import Image from '../images/pic5.jpg'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import { Link } from "react-router-dom";
 
@@ -18,7 +18,7 @@ const Home = () => {
       >
         <Box
             sx={{
-                mr: 15,
+                mr: 12,
                 padding: "20px",
                 backgroundColor: "#B1D4E0",
                 width: 450,
@@ -37,7 +37,7 @@ const Home = () => {
             padding: "50px",
         }}
         component="img"
-        alt="The house from the offer."
+        alt="Animated scientist"
         src="https://media.istockphoto.com/vectors/cartoon-teacher-with-a-complicated-calculation-scientist-professor-vector-id165802151?k=6&m=165802151&s=170667a&w=0&h=vi2P3eLUpZ9nd8Ap-DLbn4frnHrdDz11o2O5kFlSWhI="
       />
       </Typography>

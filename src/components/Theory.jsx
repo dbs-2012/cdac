@@ -1,5 +1,7 @@
-import { Card, Box, CardContent, Typography } from '@mui/material'
+import { Card, Box, CardContent, Typography, Button } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const Theory = () => {
   return (
@@ -9,7 +11,8 @@ const Theory = () => {
           border: "1px solid #0C2D48",
           margin: "50px",
           backgroundColor: "#B1D4E0",
-          boxShadow: "2px 5px 10px 2px grey"
+          boxShadow: "2px 5px 10px 2px grey",
+          padding: "10px 30px"
         }}
       >
         <CardContent>
@@ -49,7 +52,8 @@ const Theory = () => {
           border: "1px solid #0C2D48",
           margin: "50px",
           backgroundColor: "#B1D4E0",
-          boxShadow: "2px 5px 10px 2px grey"
+          boxShadow: "2px 5px 10px 2px grey",
+          padding: "10px 30px"
         }}
       >
         <CardContent>
@@ -380,7 +384,8 @@ const Theory = () => {
           border: "1px solid #0C2D48",
           margin: "50px",
           backgroundColor: "#B1D4E0",
-          boxShadow: "2px 5px 10px 2px grey"
+          boxShadow: "2px 5px 10px 2px grey",
+          padding: "10px 30px"
         }}
       >
         <CardContent>
@@ -458,7 +463,8 @@ const Theory = () => {
           border: "1px solid #0C2D48",
           margin: "50px",
           backgroundColor: "#B1D4E0",
-          boxShadow: "2px 5px 10px 2px grey"
+          boxShadow: "2px 5px 10px 2px grey",
+          padding: "10px 30px"
         }}
       >
         <CardContent>
@@ -521,7 +527,7 @@ const Theory = () => {
               fontFamily: 'Open Sans',
             }}
           >
-            <div>Suppose a line DE, intersects the two sides of a triangle AB and AC at D and E, such that;</div>
+            <div>Suppose a line DE, intersects the two sides of a triangle AB and AC at D and E, such that:</div>
             <div style={{display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -532,9 +538,9 @@ const Theory = () => {
               justifyContent: "center",
               alignItems: "center",
               margin: "10px"}}>AD/DB = AE’/E’C ……(2)</div>
-            <div>From eq. 1 and 2, we get;</div>
+            <div>From eq. 1 and 2, we get:</div>
             <div>AE/EC = AE’/E’C</div>
-            <div>Adding 1 on both the sides;</div>
+            <div>Adding 1 on both the sides:</div>
             <div>AE/EC + 1 = AE’/E’C +1</div>
             <div>(AE +EC)/EC = (AE’+E’C)/E’C</div>
             <div>AC/EC = AC/E’C</div>
@@ -550,6 +556,156 @@ const Theory = () => {
           </Typography>
         </CardContent>
       </Card>
+      <Card
+        sx={{
+          border: "1px solid #0C2D48",
+          margin: "50px",
+          backgroundColor: "#B1D4E0",
+          boxShadow: "2px 5px 10px 2px grey",
+          padding: "10px 30px"
+        }}
+      >
+        <CardContent>
+          <Typography
+            gutterBottom
+            variant='h4'
+            component="div"
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              borderBottom: "1px solid #0C2D48",
+              padding: "10px",
+              fontWeight: "1000",
+              fontFamily: 'Open Sans',
+            }}
+          >
+            Solved Examples
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "18px",
+              fontWeight: "600",
+              fontFamily: 'Open Sans',
+            }}
+          >
+            1) In a ∆ABC, sides AB and AC  are intersected by a line at D and E respectively, which is parallel to side BC. Then prove that AD/AB = AE/AC.
+          </Typography>
+          <Typography
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Box
+              sx={{
+                width: "500px"
+              }}
+              component="img"
+              alt="Example-1"
+              src="https://cdn1.byjus.com/wp-content/uploads/2020/10/Basic-Proportionality-Theorem-Similar-TrianglesArtboard-1-copy-4-8.png"
+            />
+          </Typography>
+          <Typography
+            sx={{
+              mt: "20px",
+              fontSize: "20px",
+              fontWeight: "800",
+              fontFamily: 'Open Sans',
+              color: "red"
+            }}
+          >
+            Solution
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "18px",
+              fontWeight: "600",
+              fontFamily: 'Open Sans',
+            }}
+          >
+            <div>Given,</div>
+            <div>DE || BC</div>
+            <div>So, AD/DB = AE/EC</div>
+            <div>or we can interchange the ratios as:</div>
+            <div>DB/AD = EC/AE</div>
+            <div>Now, add 1 on both sides:</div>
+            <div>(DB/AD)  + 1 = (EC/AE) + 1</div>
+            <div>(DB + AD)/AD = (EC + AE)/AE</div>
+            <div>AB/AD = AC/ AE</div>
+            <div>If we interchange the ratios again, we get:</div>
+            <div>AD/AB = AE/AC</div>
+            <div>Hence, proved.</div>
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "18px",
+              fontWeight: "600",
+              fontFamily: 'Open Sans',
+              mt:"40px",
+              borderTop: "1px solid black",
+              paddingTop: "40px"
+            }}
+          >
+            2) Suppose a triangle ABC, where DE is a line drawn from the midpoint of AB and ends midpoint of AC at E. AD/DB = AE/EC and ∠ADE = ∠ACB. Then prove ABC is an isosceles triangle.
+          </Typography>
+          <Typography
+            sx={{
+              mt: "20px",
+              fontSize: "20px",
+              fontWeight: "800",
+              fontFamily: 'Open Sans',
+              color: "red"
+            }}
+          >
+            Solution
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "18px",
+              fontWeight: "600",
+              fontFamily: 'Open Sans',
+            }}
+          >
+            <div>Given,</div> 
+            <div>AD/DB = AE/EC</div>
+            <div>By the converse of basic proportionality theorem, we get:</div>
+            <div>DE || BC</div>
+            <div>But it is given that,</div>
+            <div>∠ADE = ∠ACB</div>
+            <div>Hence,</div>
+            <div>∠ABC = ∠ACB</div>
+            <div>The side opposite to equal angles is also equal.</div>
+            <div>AB = AC</div>
+            <div>Hence, ABC is an isosceles triangle.</div>
+          </Typography>
+        </CardContent>
+      </Card>
+      <Typography sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+        }}>
+        <Button variant="contained" href="#contained-buttons"
+            sx={{
+                backgroundColor: "#0C2D48",
+                padding: "15px 20px",
+                fontFamily: 'Open Sans',
+                fontWeight: "500",
+                wordSpacing: "0.1rem",
+                letterSpacing: '0.15rem',
+                borderRadius: '10px',
+                mb: "20px",
+                '&:hover':{
+                    backgroundColor: '#003B73'
+                }
+            }}
+        >
+            <Link to="/sim" style={{textDecoration: "none", color: "white"}}>Start Simulation</Link>
+            <ArrowRightAltIcon />
+        </Button>
+      </Typography>
     </div>
   )
 }
