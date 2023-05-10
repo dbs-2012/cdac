@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Drawing from './Drawing';
-
 
 const Triangle = () => {
     const [draw, setDraw] = useState(false);
@@ -35,39 +34,84 @@ const Triangle = () => {
     };
 
 
-
     return (
         <div>
-            <div>
-                <label>
-                    Point 1 - X:
-                    <input type="number" name="x" min="0" max="10" value={point1.x} onChange={(e) => handlePointChange(e, 'point1')} />
-                    Y:
-                    <input type="number" name="y" min="0" max="10" value={point1.y} onChange={(e) => handlePointChange(e, 'point1')} />
-                </label>
-                <label>
-                    Point 2 - X:
-                    <input type="number" name="x" min="0" max="10" value={point2.x} onChange={(e) => handlePointChange(e, 'point2')} />
-                    Y:
-                    <input type="number" name="y" min="0" max="10" value={point2.y} onChange={(e) => handlePointChange(e, 'point2')} />
-                </label>
-                <label>
-                    Point 3 - X:
-                    <input type="number" name="x" min="0" max="10" value={point3.x} onChange={(e) => handlePointChange(e, 'point3')} />
-                    Y:
-                    <input type="number" name="y" min="0" max="10" value={point3.y} onChange={(e) => handlePointChange(e, 'point3')} />
-                </label>
-                <label>
-                    line on y axis:
-                    Y:
-                    <input type="number" name="y" min="0" max="10" value={y4} onChange={(e) => setY4(e.target.value)} />
-                </label>
-                <button onClick={() => setDraw(!draw)}>Draw Triangle</button>
+            <div className="left-sidebar" style={{ border: "1px solid black", float: "left", height: "100vh", width: "30%" }}>
+
             </div>
-            {console.log(point1, point2, point3)}
-            {draw && <Drawing x1={point1.x * 40} y1={point1.y * 40} x2={point2.x * 40} y2={point2.y * 40} x3={point3.x * 40} y3={point3.y * 40} y4={y4} />}
+            <div className="middle" style={{ border: "1px solid black", float: "left", width: "39%", height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center" }}>
+                {console.log(point1, point2, point3)}
+                {draw && <Drawing x1={point1.x * 40} y1={point1.y * 40} x2={point2.x * 40} y2={point2.y * 40} x3={point3.x * 40} y3={point3.y * 40} y4={y4} />}
+            </div>
+            <div className="right-bar" style={{ border: "1px solid black", float: "right", height: "100vh", width: "30%" }}>
+                <div style={{ height: "45%", border: "1px solid black" }}>
+
+                </div>
+                <div>
+                    <div style={{ marginBottom: "10px", marginTop: "10px" }}>
+                        <label>
+                            <div style={{ textAlign: "center", padding: "5px", fontFamily: "Open Sans", fontSize: "18px", fontWeight: "bold" }}> Point 1</div>
+                            <div style={{ marginTop: "10px" }}>
+                                <span style={{ margin: "0 10%", marginLeft: "15%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>X</span>:
+                                    <input type="number" name="x" min="0" max="10" value={point1.x} onChange={(e) => handlePointChange(e, 'point1')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                                <span style={{ margin: "0 10%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>Y</span>:
+                                    <input type="number" name="y" min="0" max="10" value={point1.y} onChange={(e) => handlePointChange(e, 'point1')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <div style={{ marginBottom: "10px", marginTop: "10px" }}>
+                        <label>
+                            <div style={{ textAlign: "center", padding: "5px", fontFamily: "Open Sans", fontSize: "18px", fontWeight: "bold" }}> Point 2</div>
+                            <div style={{ marginTop: "10px" }}>
+                                <span style={{ margin: "0 10%", marginLeft: "15%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>X</span>:
+                                    <input type="number" name="x" min="0" max="10" value={point2.x} onChange={(e) => handlePointChange(e, 'point2')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                                <span style={{ margin: "0 10%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>Y</span>:
+                                    <input type="number" name="y" min="0" max="10" value={point2.y} onChange={(e) => handlePointChange(e, 'point2')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <div style={{ marginBottom: "10px", marginTop: "10px" }}>
+                        <label>
+                            <div style={{ textAlign: "center", padding: "5px", fontFamily: "Open Sans", fontSize: "18px", fontWeight: "bold" }}> Point 3</div>
+                            <div style={{ marginTop: "10px" }}>
+                                <span style={{ margin: "0 10%", marginLeft: "15%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>X</span>:
+                                    <input type="number" name="x" min="0" max="10" value={point3.x} onChange={(e) => handlePointChange(e, 'point3')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                                <span style={{ margin: "0 10%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>Y</span>:
+                                    <input type="number" name="y" min="0" max="10" value={point3.y} onChange={(e) => handlePointChange(e, 'point3')} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <div style={{ marginBottom: "10px", marginTop: "30px" }}>
+                        <label>
+                            <div style={{ marginTop: "10px" }}>
+                                <span style={{ margin: "0 10%", marginLeft: "15%", fontWeight: "bold" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", fontSize: "18px" }}>Line on Y Axis</span>:</span>
+                                <span style={{ margin: "0 5%" }}>
+                                    <span style={{ marginRight: "7.5px", fontFamily: "Open Sans", }}>Y</span>:
+                                    <input type="number" name="y" min="0" max="10" value={y4} onChange={(e) => setY4(e.target.value)} style={{ marginLeft: "7.5px", padding: "2.5px", paddingLeft: "7px", borderRadius: "5px", fontFamily: "Open Sans" }} />
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: 'center', alignItems: "center", }}>
+                        <button onClick={() => setDraw(!draw)} style={{ padding: "8px 20px", borderRadius: "10px", fontSize: "20px", fontFamily: "Open Sans", cursor: "pointer", backgroundColor: "#0C2D48", color: "white", border: "none", boxShadow: "2px 5px 10px 2px grey" }}>Draw Triangle</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    );
-};
+    )
+}
 
 export default Triangle

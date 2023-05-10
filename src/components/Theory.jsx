@@ -40,9 +40,9 @@ const Theory = () => {
             }}
           >
             Basic Proportionality theorem was introduced by a famous Greek Mathematician, Thales, hence it is also called Thales Theorem. According to him, for any two equiangular triangles, the ratio of any two corresponding sides is always the same. Based on this concept, he gave theorem of basic proportionality (BPT). This concept has been introduced in similar triangles.  If two triangles are similar to each other then,
-            <ol type='i' style={{ marginTop: "15px" }}>
-              <li>Corresponding angles of both the triangles are equal</li>
-              <li>Corresponding sides of both the triangles are in proportion to each other</li>
+            <ol type='i' style={{ marginTop: "15px",}}>
+              <li style={{ fontFamily: 'Open Sans', }}>Corresponding angles of both the triangles are equal</li>
+              <li style={{ fontFamily: 'Open Sans', }}>Corresponding sides of both the triangles are in proportion to each other</li>
             </ol>
           </Typography>
         </CardContent>

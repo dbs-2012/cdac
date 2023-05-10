@@ -1,0 +1,1155 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:3000/sim
+Subject: React App
+Date: Thu, 4 May 2023 18:13:55 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----"
+
+
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/html
+Content-ID: <frame-C0CBFA9E7B15A18E554522DCF802C935@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:3000/sim
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-38656691-e392-4817-9e3a-460b3250787e@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cb234701-1c07-4622=
+-bb41-5f460cdc18a6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-80274971-7c22-48aa-81ed-063ef22828e2@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b9a21a17-cfbc-4e25-89=
+35-5a85b3868c9e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-024058f4-5d7b-4900-9548-4908ba904d1d@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-15d6ae07-6991-4a25-a7ab-=
+eb5bd0688e15@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-34ce253f-2921-4fd0-8b8a-ee3999661e37@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-407dbe50-2668-47dc-90a0-9=
+fdb136c0b5c@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-2139a682-0954-4f8d-a0de-c2d3f4a9d39e@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-3a38042d-fda9-4216-80bb-f=
+ebf53ea3671@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-c9cad6d6-5155-4185-afd6-5e8b56af93e6@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fdbbab08-7689-4eb5-bb8d-c=
+9f024b3e7f2@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d3976c74-f8d9-4adf-b874-bd69c18d0de5@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a6d09f2d-9953-4274-be60-2=
+c66563a33c6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-a5f83eed-90af-4d4f-a970-8cba215805f4@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4de6349e-ee8d-4eff-8ec8-2=
+e9581c5c8e2@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3dbbc119-e8e5-4081-8278-1874680db6d8@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6d66c273-81da-4994-b8cc-a=
+9c5692c961a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-999f2ddd-489f-4221-908c-c0af2a702ddb@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-abd52059-3b73-4774-92b9-7=
+58dfff3e0de@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-5eee485c-ed0e-4e4c-b756-a97d5bfa4126@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-8edd64d3-2f40-47c2-8d7e-4=
+3825e7091e4@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-de13edeb-e0f5-41e5-9da0-f031e72807fc@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-807e7bca-b27e-4d64-8d82-e=
+c3f2c430e97@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-bbee1122-2348-435a-ae7c-8f1da1e2864a@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e35f7661-e655-406f-894b-a=
+435a5fde591@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-967e960b-b528-4381-b910-08565b6ebde8@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-537901fb-c67d-41ad-b4d3-3=
+ee4d8625362@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-c98e6ddc-6940-420d-822c-022e497ded44@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7b76d65a-d985-43d7-8a3b-5=
+ade8e413021@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d28cd94f-64ec-42e7-874d-87e042edd2b6@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1cf20238-7be2-4031-af41-f=
+b423d537811@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-339c9829-1737-45b8-b7ac-cb47bb616111@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e06cfeac-a062-4ba9-8c18-2=
+1eb0fe28c72@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-763f34d6-22b9-417d-9be4-2744c7cc202c@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e0de87e3-abf5-4218-87c3-7=
+c4d0878b4a6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-2c6cf44d-ce8f-4804-8252-70b07531b3ff@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-912fb2c2-e2df-4b24-8d77-b=
+0e213f56dd9@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-dd20f3b6-f6a0-4875-8ead-1e4c42b01fc2@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-73d1bca6-3ad2-4426-9863-8=
+622c5db593d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-9d9161fe-400d-4bec-94c6-6428a6bab950@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9417f9a7-a5f9-42f3-935c-b=
+3c9fd89505b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d6ade658-6ea3-4b69-a6b1-41eb07bd8b6f@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ad8788c6-f5d9-41a2-bcbe-4=
+574db2e9ff7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3361c9e2-f58e-432e-afa6-cb2fdfa86ae3@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-234ad28d-37ec-49b9-8122-f=
+d822672bd8b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d9c82493-fa75-48f5-8778-111e0d1ed2d1@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-941c8d60-856e-4e1f-a1df-b=
+aa2964156c4@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-807fcb60-2880-47df-adbb-96c0bffd4f88@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fdc04b45-3259-495d-99d4-b=
+f59e6d7cbef@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-285619e1-6cfa-465d-8674-53127c550f28@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ffb7cf52-e067-48d5-8741-4=
+7a9c067e68b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-1047876b-733b-48d2-a2b1-7e08bbea469e@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6937fb6e-2a6e-4880-8031-6=
+779a460360e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-ecaa909e-63fe-424e-807b-a021b97758d7@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fa6866c9-c6a1-404d-8178-0=
+30f8a60522a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-5185e57d-f059-4dd2-9c7c-fb08b752e6da@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1cd421fe-55eb-4494-8859-5=
+802f36de597@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-3c97a6c6-f9ec-4532-b29f-f73b67c2b6be@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2842ab4e-4ee6-42a0-9735-1=
+93d9709ab6a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-9f0e44cd-9437-47ce-844e-dea5014b7ada@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f53773bd-e7c9-459c-9f6c-e=
+66d28b5c652@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-ed8de93c-22d0-44dc-85d5-3df25cc8bc99@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ac9e2502-b879-4409-9727-0=
+0e56fe678e2@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-0c28858b-74bb-479b-b3ae-fd13bfabd400@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c0ce6125-0a68-4f4e-a4e0-1=
+0f2705a98bb@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-4ac800f8-6f23-43b1-a5bb-69e0501f6e16@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-78317c46-66f6-4b89-957a-5=
+8e853d19aa3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-10971f20-b064-4263-9982-cb3a84048c02@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-803d70b8-46ee-4c40-b6f5-3=
+7ee5743719a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-242fa482-1f78-4067-9c1a-56306cc329c1@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0ad55e7e-6954-4238-85ba-4=
+2a63d324b8a@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-8f080337-9b4a-40f8-ae51-3efc95977daa@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-847dd578-90fa-4d3a-a66b-d=
+60470675633@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-4ad68d7a-40bb-45c8-8376-e1eb887ee88f@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b065a42b-4288-4085-ba2c-b=
+4a670e399e2@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b760ed92-9179-443c-896a-32025d4f6fb4@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-19d5a9f1-6d2e-4934-ae4a-e=
+40fcec61a7d@mhtml.blink" />
+   =20
+    <link rel=3D"icon" href=3D"http://localhost:3000/favicon.ico">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <meta name=3D"theme-color" content=3D"#000000">
+    <meta name=3D"description" content=3D"Web site created using create-rea=
+ct-app">
+    <link rel=3D"apple-touch-icon" href=3D"http://localhost:3000/logo192.pn=
+g">
+    <!--
+      manifest.json provides metadata used when your web app is installed o=
+n a
+      user's mobile device or desktop. See https://developers.google.com/we=
+b/fundamentals/web-app-manifest/
+    -->
+    <link rel=3D"manifest" href=3D"http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the bu=
+ild.
+      Only files inside the `public` folder can be referenced from the HTML=
+.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public UR=
+L.
+      Learn how to configure a non-root public URL by running `npm run buil=
+d`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+   =20
+    <div id=3D"root"><div class=3D"App"><header class=3D"MuiPaper-root MuiP=
+aper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary Mu=
+iAppBar-positionFixed mui-fixed css-19d9hss-MuiPaper-root-MuiAppBar-root"><=
+div class=3D"MuiContainer-root MuiContainer-maxWidthXl css-1unwcjl-MuiConta=
+iner-root"><div class=3D"MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiT=
+oolbar-root"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u=
+zrjc8-MuiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" viewBox=3D"=
+0 0 24 24" data-testid=3D"CalculateIcon"><path d=3D"M19 3H5c-1.1 0-2 .9-2 2=
+v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5.97 4.06L14.09 6l1.=
+41 1.41L16.91 6l1.06 1.06-1.41 1.41 1.41 1.41-1.06 1.06-1.41-1.4-1.41 1.41-=
+1.06-1.06 1.41-1.41-1.41-1.42zm-6.78.66h5v1.5h-5v-1.5zM11.5 16h-2v2H8v-2H6v=
+-1.5h2v-2h1.5v2h2V16zm6.5 1.25h-5v-1.5h5v1.5zm0-2.5h-5v-1.5h5v1.5z"></path>=
+</svg><h6 class=3D"MuiTypography-root MuiTypography-h6 css-14teosm-MuiTypog=
+raphy-root"><a href=3D"http://localhost:3000/" style=3D"text-decoration: no=
+ne; color: white; font-family: &quot;Open Sans&quot;; font-weight: 800;">TH=
+ALE'S THEOREM</a></h6><h6 class=3D"MuiTypography-root MuiTypography-h6 css-=
+157e4ac-MuiTypography-root"><span style=3D"margin-top: 7.5px; margin-right:=
+ 5px;"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-M=
+uiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" viewBox=3D"0 0 24 =
+24" data-testid=3D"HomeIcon"><path d=3D"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z=
+"></path></svg></span><a href=3D"http://localhost:3000/" style=3D"text-deco=
+ration: none; color: white; margin-top: 5px; font-family: &quot;Open Sans&q=
+uot;; font-weight: 500;">HOME</a></h6><h6 class=3D"MuiTypography-root MuiTy=
+pography-h6 css-qifl0r-MuiTypography-root"><span style=3D"margin-top: 7.5px=
+; margin-right: 5px;"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedi=
+um css-i4bv87-MuiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" vie=
+wBox=3D"0 0 24 24" data-testid=3D"TextSnippetIcon"><path d=3D"m20.41 8.41-4=
+.83-4.83c-.37-.37-.88-.58-1.41-.58H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.=
+1 0 2-.9 2-2V9.83c0-.53-.21-1.04-.59-1.42zM7 7h7v2H7V7zm10 10H7v-2h10v2zm0-=
+4H7v-2h10v2z"></path></svg></span><a href=3D"http://localhost:3000/theory" =
+style=3D"text-decoration: none; color: white; margin-top: 5px; font-family:=
+ &quot;Open Sans&quot;; font-weight: 500;">THEORY</a></h6><h6 class=3D"MuiT=
+ypography-root MuiTypography-h6 css-qifl0r-MuiTypography-root"><span style=
+=3D"margin-top: 7.5px; margin-right: 5px;"><svg class=3D"MuiSvgIcon-root Mu=
+iSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable=3D"false" ari=
+a-hidden=3D"true" viewBox=3D"0 0 24 24" data-testid=3D"VideoLibraryIcon"><p=
+ath d=3D"M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1=
+.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"></pat=
+h></svg></span><a href=3D"http://localhost:3000/sim" style=3D"text-decorati=
+on: none; color: white; margin-top: 5px; font-family: &quot;Open Sans&quot;=
+; font-weight: 500;">SIMULATOR</a></h6><h6 class=3D"MuiTypography-root MuiT=
+ypography-h6 css-jw66g1-MuiTypography-root"><span style=3D"margin-top: 7.5p=
+x; margin-right: 5px;"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMed=
+ium css-i4bv87-MuiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" vi=
+ewBox=3D"0 0 24 24" data-testid=3D"AssessmentIcon"><path d=3D"M19 3H5c-1.1 =
+0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2=
+v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path></svg></span><a href=3D"http://lo=
+calhost:3000/test" style=3D"text-decoration: none; color: white; margin-top=
+: 5px; font-family: &quot;Open Sans&quot;; font-weight: 500;"> TEST</a></h6=
+></div></div></header><div><div class=3D"MuiBox-root css-1r4rbg7"><div clas=
+s=3D"MuiBox-root css-1gz4m47"><div class=3D"MuiBox-root css-65jqr9"><ul cla=
+ss=3D"MuiList-root MuiList-padding css-h4y409-MuiList-root"><li class=3D"Mu=
+iListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"><a class=
+=3D"MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui=
+ListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-roo=
+t-MuiListItemButton-root" tabindex=3D"0" href=3D"http://localhost:3000/sim#=
+home"><div class=3D"MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"><=
+svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIco=
+n-root" focusable=3D"false" aria-hidden=3D"true" viewBox=3D"0 0 24 24" data=
+-testid=3D"HomeIcon"><path d=3D"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path=
+></svg></div><div class=3D"MuiListItemText-root css-tlelie-MuiListItemText-=
+root"><span class=3D"MuiTypography-root MuiTypography-body1 MuiListItemText=
+-primary css-10hburv-MuiTypography-root">Homepage</span></div><span class=
+=3D"MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></a></li><li=
+ class=3D"MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root=
+"><a class=3D"MuiButtonBase-root MuiListItemButton-root MuiListItemButton-g=
+utters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButt=
+onBase-root-MuiListItemButton-root" tabindex=3D"0" href=3D"http://localhost=
+:3000/sim#simple-list"><div class=3D"MuiListItemIcon-root css-cveggr-MuiLis=
+tItemIcon-root"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css=
+-i4bv87-MuiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" viewBox=
+=3D"0 0 24 24" data-testid=3D"ArticleIcon"><path d=3D"M19 3H5c-1.1 0-2 .9-2=
+ 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4=
+H7v-2h10v2zm0-4H7V7h10v2z"></path></svg></div><div class=3D"MuiListItemText=
+-root css-tlelie-MuiListItemText-root"><span class=3D"MuiTypography-root Mu=
+iTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root">P=
+ages</span></div><span class=3D"MuiTouchRipple-root css-8je8zh-MuiTouchRipp=
+le-root"></span></a></li><li class=3D"MuiListItem-root MuiListItem-gutters =
+css-1nxmd3h-MuiListItem-root"><a class=3D"MuiButtonBase-root MuiListItemBut=
+ton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton=
+-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root" tabindex=3D=
+"0" href=3D"http://localhost:3000/sim#simple-list"><div class=3D"MuiListIte=
+mIcon-root css-cveggr-MuiListItemIcon-root"><svg class=3D"MuiSvgIcon-root M=
+uiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable=3D"false" ar=
+ia-hidden=3D"true" viewBox=3D"0 0 24 24" data-testid=3D"GroupIcon"><path d=
+=3D"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3=
+ 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0=
+ 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02=
+-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></pat=
+h></svg></div><div class=3D"MuiListItemText-root css-tlelie-MuiListItemText=
+-root"><span class=3D"MuiTypography-root MuiTypography-body1 MuiListItemTex=
+t-primary css-10hburv-MuiTypography-root">Groups</span></div><span class=3D=
+"MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></a></li><li cl=
+ass=3D"MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"><=
+a class=3D"MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutt=
+ers MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonB=
+ase-root-MuiListItemButton-root" tabindex=3D"0" href=3D"http://localhost:30=
+00/sim#simple-list"><div class=3D"MuiListItemIcon-root css-cveggr-MuiListIt=
+emIcon-root"><svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4=
+bv87-MuiSvgIcon-root" focusable=3D"false" aria-hidden=3D"true" viewBox=3D"0=
+ 0 24 24" data-testid=3D"StorefrontIcon"><path d=3D"m21.9 8.89-1.05-4.37c-.=
+22-.9-1-1.52-1.91-1.52H5.05c-.9 0-1.69.63-1.9 1.52L2.1 8.89c-.24 1.02-.02 2=
+.06.62 2.88.08.11.19.19.28.29V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6.94c.09-=
+.09.2-.18.28-.28.64-.82.87-1.87.62-2.89zm-2.99-3.9 1.05 4.37c.1.42.01.84-.2=
+5 1.17-.14.18-.44.47-.94.47-.61 0-1.14-.49-1.21-1.14L16.98 5l1.93-.01zM13 5=
+h1.96l.54 4.52c.05.39-.07.78-.33 1.07-.22.26-.54.41-.95.41-.67 0-1.22-.59-1=
+.22-1.31V5zM8.49 9.52 9.04 5H11v4.69c0 .72-.55 1.31-1.29 1.31-.34 0-.65-.15=
+-.89-.41-.25-.29-.37-.68-.33-1.07zm-4.45-.16L5.05 5h1.97l-.58 4.86c-.08.65-=
+.6 1.14-1.21 1.14-.49 0-.8-.29-.93-.47-.27-.32-.36-.75-.26-1.17zM5 19v-6.03=
+c.08.01.15.03.23.03.87 0 1.66-.36 2.24-.95.6.6 1.4.95 2.31.95.87 0 1.65-.36=
+ 2.23-.93.59.57 1.39.93 2.29.93.84 0 1.64-.35 2.24-.95.58.59 1.37.95 2.24.9=
+5.08 0 .15-.02.23-.03V19H5z"></path></svg></div><div class=3D"MuiListItemTe=
+xt-root css-tlelie-MuiListItemText-root"><span class=3D"MuiTypography-root =
+MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"=
+>Marketplace</span></div><span class=3D"MuiTouchRipple-root css-8je8zh-MuiT=
+ouchRipple-root"></span></a></li><li class=3D"MuiListItem-root MuiListItem-=
+gutters css-1nxmd3h-MuiListItem-root"><a class=3D"MuiButtonBase-root MuiLis=
+tItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListIt=
+emButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root" tab=
+index=3D"0" href=3D"http://localhost:3000/sim#simple-list"><div class=3D"Mu=
+iListItemIcon-root css-cveggr-MuiListItemIcon-root"><svg class=3D"MuiSvgIco=
+n-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable=3D"f=
+alse" aria-hidden=3D"true" viewBox=3D"0 0 24 24" data-testid=3D"PersonIcon"=
+><path d=3D"M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2=
+c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path></svg></div><div cla=
+ss=3D"MuiListItemText-root css-tlelie-MuiListItemText-root"><span class=3D"=
+MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-=
+MuiTypography-root">Friends</span></div><span class=3D"MuiTouchRipple-root =
+css-8je8zh-MuiTouchRipple-root"></span></a></li><li class=3D"MuiListItem-ro=
+ot MuiListItem-gutters css-1nxmd3h-MuiListItem-root"><a class=3D"MuiButtonB=
+ase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton=
+-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemB=
+utton-root" tabindex=3D"0" href=3D"http://localhost:3000/sim#simple-list"><=
+div class=3D"MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"><svg cla=
+ss=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"=
+ focusable=3D"false" aria-hidden=3D"true" viewBox=3D"0 0 24 24" data-testid=
+=3D"SettingsIcon"><path d=3D"M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.6=
+4-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.=
+22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.=
+84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.0=
+8-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.9=
+4s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.2=
+2l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-=
+.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1=
+.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.=
+6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"></path></svg></div><=
+div class=3D"MuiListItemText-root css-tlelie-MuiListItemText-root"><span cl=
+ass=3D"MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1=
+0hburv-MuiTypography-root">Settings</span></div><span class=3D"MuiTouchRipp=
+le-root css-8je8zh-MuiTouchRipple-root"></span></a></li><li class=3D"MuiLis=
+tItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"><a class=3D"Mu=
+iButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListIt=
+emButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiL=
+istItemButton-root" tabindex=3D"0" href=3D"http://localhost:3000/sim#simple=
+-list"><div class=3D"MuiListItemIcon-root css-cveggr-MuiListItemIcon-root">=
+<svg class=3D"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIc=
+on-root" focusable=3D"false" aria-hidden=3D"true" viewBox=3D"0 0 24 24" dat=
+a-testid=3D"AccountBoxIcon"><path d=3D"M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2=
+ 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93=
+ 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C=
+7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"></path=
+></svg></div><div class=3D"MuiListItemText-root css-tlelie-MuiListItemText-=
+root"><span class=3D"MuiTypography-root MuiTypography-body1 MuiListItemText=
+-primary css-10hburv-MuiTypography-root">Profile</span></div><span class=3D=
+"MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></a></li></ul><=
+/div><div class=3D"MuiBox-root css-0"><div><div style=3D"margin-bottom: 20p=
+x; margin-right: 10px;"><label><div style=3D"text-align: center; padding: 5=
+px; font-size: 18px; font-family: &quot;Open Sans&quot;;"> Point 1</div><di=
+v class=3D"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-M=
+uiGrid-root"><div class=3D"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5.5 cs=
+s-hqi3j4-MuiGrid-root"><p class=3D"MuiTypography-root MuiTypography-body1 c=
+ss-3jyqq3-MuiTypography-root"> <span style=3D"margin: 0px 15px; font-family=
+: &quot;Open Sans&quot;;">X:</span><input type=3D"number" name=3D"x" min=3D=
+"0" max=3D"10" value=3D"1" style=3D"border-radius: 5px; font-family: &quot;=
+Open Sans&quot;;"></p></div><div class=3D"MuiGrid-root MuiGrid-item MuiGrid=
+-grid-xs-5.5 css-hqi3j4-MuiGrid-root"><p class=3D"MuiTypography-root MuiTyp=
+ography-body1 css-1evqu2k-MuiTypography-root"><span style=3D"margin: 0px 15=
+px; font-family: &quot;Open Sans&quot;;">Y:</span><input type=3D"number" na=
+me=3D"y" min=3D"0" max=3D"10" value=3D"1" style=3D"border-radius: 5px; font=
+-family: &quot;Open Sans&quot;;"></p></div></div></label></div><label>Point=
+ 2 - X:<input type=3D"number" name=3D"x" min=3D"0" max=3D"10" value=3D"5">Y=
+:<input type=3D"number" name=3D"y" min=3D"0" max=3D"10" value=3D"8"></label=
+><label>Point 3 - X:<input type=3D"number" name=3D"x" min=3D"0" max=3D"10" =
+value=3D"2">Y:<input type=3D"number" name=3D"y" min=3D"0" max=3D"10" value=
+=3D"8"></label><label>line on y axis: Y:<input type=3D"number" name=3D"y" m=
+in=3D"0" max=3D"10" value=3D"-2"></label><button>Draw Triangle</button></di=
+v></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+ =20
+
+</body></html>
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-38656691-e392-4817-9e3a-460b3250787e@mhtml.blink
+
+@charset "utf-8";
+
+* { margin: 0px; font-family: system-ui, -apple-system, BlinkMacSystemFont,=
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neu=
+e", sans-serif; }
+
+.proof { background-image: url("http://localhost:3000/static/media/proof.b0=
+72284417613fbeea24.jpg"); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cb234701-1c07-4622-bb41-5f460cdc18a6@mhtml.blink
+
+@charset "utf-8";
+
+.react-typewriter-text { padding: 0px; margin: 0px; text-align: left; }
+
+.react-typewriter-pointer { background-color: black; display: inline; paddi=
+ng: 0px 1px; }
+
+.add-cursor-animate { animation: 1s step-end 0s infinite normal none runnin=
+g blink; }
+
+@keyframes blink {=20
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hide-typing-cursor { padding: 0px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-80274971-7c22-48aa-81ed-063ef22828e2@mhtml.blink
+
+@charset "utf-8";
+
+.css-1e3jbag-MuiAppBar-root { display: flex; flex-direction: column; width:=
+ 100%; box-sizing: border-box; flex-shrink: 0; z-index: 1100; top: 0px; lef=
+t: auto; right: 0px; background-color: rgb(25, 118, 210); color: rgb(255, 2=
+55, 255); position: sticky; margin: 0px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b9a21a17-cfbc-4e25-8935-5a85b3868c9e@mhtml.blink
+
+@charset "utf-8";
+
+@media print {
+  .css-1e3jbag-MuiAppBar-root { position: absolute; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-024058f4-5d7b-4900-9548-4908ba904d1d@mhtml.blink
+
+@charset "utf-8";
+
+.css-19d9hss-MuiPaper-root-MuiAppBar-root { transition: box-shadow 300ms cu=
+bic-bezier(0.4, 0, 0.2, 1) 0ms; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px =
+-1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px=
+ 0px; display: flex; flex-direction: column; width: 100%; box-sizing: borde=
+r-box; flex-shrink: 0; z-index: 1100; top: 0px; left: auto; right: 0px; bac=
+kground-color: rgb(25, 118, 210); color: rgb(255, 255, 255); position: stic=
+ky; margin: 0px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-15d6ae07-6991-4a25-a7ab-eb5bd0688e15@mhtml.blink
+
+@charset "utf-8";
+
+@media print {
+  .css-19d9hss-MuiPaper-root-MuiAppBar-root { position: absolute; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-34ce253f-2921-4fd0-8b8a-ee3999661e37@mhtml.blink
+
+@charset "utf-8";
+
+.css-1unwcjl-MuiContainer-root { width: 100%; margin-left: auto; box-sizing=
+: border-box; margin-right: auto; display: block; padding-left: 16px; paddi=
+ng-right: 16px; background-color: rgb(12, 45, 72); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-407dbe50-2668-47dc-90a0-9fdb136c0b5c@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 600px) {
+  .css-1unwcjl-MuiContainer-root { padding-left: 24px; padding-right: 24px;=
+ }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2139a682-0954-4f8d-a0de-c2d3f4a9d39e@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 1536px) {
+  .css-1unwcjl-MuiContainer-root { max-width: 1536px; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3a38042d-fda9-4216-80bb-febf53ea3671@mhtml.blink
+
+@charset "utf-8";
+
+.css-r6ewbb-MuiToolbar-root { position: relative; display: flex; -webkit-bo=
+x-align: center; align-items: center; min-height: 56px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c9cad6d6-5155-4185-afd6-5e8b56af93e6@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  @media (orientation: landscape) {
+  .css-r6ewbb-MuiToolbar-root { min-height: 48px; }
+}
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fdbbab08-7689-4eb5-bb8d-c9f024b3e7f2@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 600px) {
+  .css-r6ewbb-MuiToolbar-root { min-height: 64px; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d3976c74-f8d9-4adf-b874-bd69c18d0de5@mhtml.blink
+
+@charset "utf-8";
+
+.css-1uzrjc8-MuiSvgIcon-root { user-select: none; width: 1em; height: 1em; =
+display: inline-block; fill: currentcolor; flex-shrink: 0; transition: fill=
+ 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; font-size: 1.5rem; margin-right: 8=
+px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a6d09f2d-9953-4274-be60-2c66563a33c6@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-1uzrjc8-MuiSvgIcon-root { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a5f83eed-90af-4d4f-a970-8cba215805f4@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-1uzrjc8-MuiSvgIcon-root { display: flex; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4de6349e-ee8d-4eff-8ec8-2e9581c5c8e2@mhtml.blink
+
+@charset "utf-8";
+
+.css-14teosm-MuiTypography-root { margin: 0px 4px 0px 0px; font-family: Rob=
+oto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 1.25rem; li=
+ne-height: 1.6; color: white; letter-spacing: 0.25rem; text-decoration: non=
+e; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3dbbc119-e8e5-4081-8278-1874680db6d8@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-14teosm-MuiTypography-root { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6d66c273-81da-4994-b8cc-a9c5692c961a@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-14teosm-MuiTypography-root { display: flex; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-999f2ddd-489f-4221-908c-c0af2a702ddb@mhtml.blink
+
+@charset "utf-8";
+
+.css-157e4ac-MuiTypography-root { margin: 0px 0px 0px 480px; font-family: R=
+oboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 1.25rem; =
+line-height: 1.6; color: white; letter-spacing: 0.1rem; text-decoration: no=
+ne; padding: 10px; border-radius: 6px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-abd52059-3b73-4774-92b9-758dfff3e0de@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-157e4ac-MuiTypography-root { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5eee485c-ed0e-4e4c-b756-a97d5bfa4126@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-157e4ac-MuiTypography-root { display: flex; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8edd64d3-2f40-47c2-8d7e-43825e7091e4@mhtml.blink
+
+@charset "utf-8";
+
+.css-157e4ac-MuiTypography-root:hover { background-color: rgb(20, 93, 160);=
+ opacity: 0.5; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-de13edeb-e0f5-41e5-9da0-f031e72807fc@mhtml.blink
+
+@charset "utf-8";
+
+.css-i4bv87-MuiSvgIcon-root { user-select: none; width: 1em; height: 1em; d=
+isplay: inline-block; fill: currentcolor; flex-shrink: 0; transition: fill =
+200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; font-size: 1.5rem; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-807e7bca-b27e-4d64-8d82-ec3f2c430e97@mhtml.blink
+
+@charset "utf-8";
+
+.css-qifl0r-MuiTypography-root { margin: 0px 0px 0px 32px; font-family: Rob=
+oto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 1.25rem; li=
+ne-height: 1.6; letter-spacing: 0.1rem; padding: 5px 10px; border-radius: 6=
+px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bbee1122-2348-435a-ae7c-8f1da1e2864a@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-qifl0r-MuiTypography-root { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e35f7661-e655-406f-894b-a435a5fde591@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-qifl0r-MuiTypography-root { display: flex; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-967e960b-b528-4381-b910-08565b6ebde8@mhtml.blink
+
+@charset "utf-8";
+
+.css-qifl0r-MuiTypography-root:hover { background-color: rgb(20, 93, 160); =
+opacity: 0.5; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-537901fb-c67d-41ad-b4d3-3ee4d8625362@mhtml.blink
+
+@charset "utf-8";
+
+.css-jw66g1-MuiTypography-root { margin: 0px 0px 0px 32px; font-family: Rob=
+oto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 1.25rem; li=
+ne-height: 1.6; color: white; letter-spacing: 0.1rem; padding: 5px 10px; bo=
+rder-radius: 6px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c98e6ddc-6940-420d-822c-022e497ded44@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-jw66g1-MuiTypography-root { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7b76d65a-d985-43d7-8a3b-5ade8e413021@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-jw66g1-MuiTypography-root { display: flex; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d28cd94f-64ec-42e7-874d-87e042edd2b6@mhtml.blink
+
+@charset "utf-8";
+
+.css-jw66g1-MuiTypography-root:hover { background-color: rgb(20, 93, 160); =
+opacity: 0.5; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1cf20238-7be2-4031-af41-fb423d537811@mhtml.blink
+
+@charset "utf-8";
+
+.css-1r4rbg7 { flex: 1 1 0%; padding: 16px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-339c9829-1737-45b8-b7ac-cb47bb616111@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 0px) {
+  .css-1r4rbg7 { display: none; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e06cfeac-a062-4ba9-8c18-21eb0fe28c72@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 600px) {
+  .css-1r4rbg7 { display: block; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-763f34d6-22b9-417d-9be4-2744c7cc202c@mhtml.blink
+
+@charset "utf-8";
+
+.css-1gz4m47 { position: fixed; border-right: 1px solid black; width: 350px=
+; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e0de87e3-abf5-4218-87c3-7c4d0878b4a6@mhtml.blink
+
+@charset "utf-8";
+
+.css-65jqr9 { border-bottom: 1px solid black; border-radius: 10px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2c6cf44d-ce8f-4804-8252-70b07531b3ff@mhtml.blink
+
+@charset "utf-8";
+
+.css-h4y409-MuiList-root { list-style: none; margin: 0px; padding: 8px 0px;=
+ position: relative; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-912fb2c2-e2df-4b24-8d77-b0e213f56dd9@mhtml.blink
+
+@charset "utf-8";
+
+.css-1nxmd3h-MuiListItem-root { display: flex; -webkit-box-pack: start; jus=
+tify-content: flex-start; -webkit-box-align: center; align-items: center; p=
+osition: relative; text-decoration: none; width: 100%; box-sizing: border-b=
+ox; text-align: left; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dd20f3b6-f6a0-4875-8ead-1e4c42b01fc2@mhtml.blink
+
+@charset "utf-8";
+
+.css-1nxmd3h-MuiListItem-root.Mui-focusVisible { background-color: rgba(0, =
+0, 0, 0.12); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-73d1bca6-3ad2-4426-9863-8622c5db593d@mhtml.blink
+
+@charset "utf-8";
+
+.css-1nxmd3h-MuiListItem-root.Mui-selected { background-color: rgba(25, 118=
+, 210, 0.08); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9d9161fe-400d-4bec-94c6-6428a6bab950@mhtml.blink
+
+@charset "utf-8";
+
+.css-1nxmd3h-MuiListItem-root.Mui-selected.Mui-focusVisible { background-co=
+lor: rgba(25, 118, 210, 0.2); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9417f9a7-a5f9-42f3-935c-b3c9fd89505b@mhtml.blink
+
+@charset "utf-8";
+
+.css-1nxmd3h-MuiListItem-root.Mui-disabled { opacity: 0.38; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d6ade658-6ea3-4b69-a6b1-41eb07bd8b6f@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root { display: flex; -webkit-box-flex: 1; fl=
+ex-grow: 1; -webkit-box-pack: start; justify-content: flex-start; -webkit-b=
+ox-align: center; align-items: center; position: relative; text-decoration:=
+ none; min-width: 0px; box-sizing: border-box; text-align: left; padding: 8=
+px 16px; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0m=
+s; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ad8788c6-f5d9-41a2-bcbe-4574db2e9ff7@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root:hover { text-decoration: none; backgroun=
+d-color: rgba(0, 0, 0, 0.04); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3361c9e2-f58e-432e-afa6-cb2fdfa86ae3@mhtml.blink
+
+@charset "utf-8";
+
+@media (hover: none) {
+  .css-z4ly38-MuiListItemButton-root:hover { background-color: transparent;=
+ }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-234ad28d-37ec-49b9-8122-fd822672bd8b@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root.Mui-selected { background-color: rgba(25=
+, 118, 210, 0.08); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d9c82493-fa75-48f5-8778-111e0d1ed2d1@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root.Mui-selected.Mui-focusVisible { backgrou=
+nd-color: rgba(25, 118, 210, 0.2); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-941c8d60-856e-4e1f-a1df-baa2964156c4@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root.Mui-selected:hover { background-color: r=
+gba(25, 118, 210, 0.12); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-807fcb60-2880-47df-adbb-96c0bffd4f88@mhtml.blink
+
+@charset "utf-8";
+
+@media (hover: none) {
+  .css-z4ly38-MuiListItemButton-root.Mui-selected:hover { background-color:=
+ rgba(25, 118, 210, 0.08); }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fdc04b45-3259-495d-99d4-bf59e6d7cbef@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root.Mui-focusVisible { background-color: rgb=
+a(0, 0, 0, 0.12); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-285619e1-6cfa-465d-8674-53127c550f28@mhtml.blink
+
+@charset "utf-8";
+
+.css-z4ly38-MuiListItemButton-root.Mui-disabled { opacity: 0.38; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ffb7cf52-e067-48d5-8741-47a9c067e68b@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root { -webkit-tap-highli=
+ght-color: transparent; background-color: transparent; outline: 0px; border=
+: 0px; margin: 0px; border-radius: 0px; cursor: pointer; user-select: none;=
+ vertical-align: middle; appearance: none; color: inherit; display: flex; -=
+webkit-box-flex: 1; flex-grow: 1; -webkit-box-pack: start; justify-content:=
+ flex-start; -webkit-box-align: center; align-items: center; position: rela=
+tive; text-decoration: none; min-width: 0px; box-sizing: border-box; text-a=
+lign: left; padding: 8px 16px; transition: background-color 150ms cubic-bez=
+ier(0.4, 0, 0.2, 1) 0ms; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1047876b-733b-48d2-a2b1-7e08bbea469e@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6937fb6e-2a6e-4880-8031-6779a460360e@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-disabled { point=
+er-events: none; cursor: default; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ecaa909e-63fe-424e-807b-a021b97758d7@mhtml.blink
+
+@charset "utf-8";
+
+@media print {
+  .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root { -webkit-print-co=
+lor-adjust: exact; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fa6866c9-c6a1-404d-8178-030f8a60522a@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover { text-decorat=
+ion: none; background-color: rgba(0, 0, 0, 0.04); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5185e57d-f059-4dd2-9c7c-fb08b752e6da@mhtml.blink
+
+@charset "utf-8";
+
+@media (hover: none) {
+  .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover { background=
+-color: transparent; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1cd421fe-55eb-4494-8859-5802f36de597@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected { backg=
+round-color: rgba(25, 118, 210, 0.08); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3c97a6c6-f9ec-4532-b29f-f73b67c2b6be@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected.Mui-foc=
+usVisible { background-color: rgba(25, 118, 210, 0.2); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2842ab4e-4ee6-42a0-9735-193d9709ab6a@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected:hover {=
+ background-color: rgba(25, 118, 210, 0.12); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9f0e44cd-9437-47ce-844e-dea5014b7ada@mhtml.blink
+
+@charset "utf-8";
+
+@media (hover: none) {
+  .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected:hover=
+ { background-color: rgba(25, 118, 210, 0.08); }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f53773bd-e7c9-459c-9f6c-e66d28b5c652@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-focusVisible { b=
+ackground-color: rgba(0, 0, 0, 0.12); }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ed8de93c-22d0-44dc-85d5-3df25cc8bc99@mhtml.blink
+
+@charset "utf-8";
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-disabled { opaci=
+ty: 0.38; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ac9e2502-b879-4409-9727-00e56fe678e2@mhtml.blink
+
+@charset "utf-8";
+
+.css-cveggr-MuiListItemIcon-root { min-width: 56px; color: rgba(0, 0, 0, 0.=
+54); flex-shrink: 0; display: inline-flex; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0c28858b-74bb-479b-b3ae-fd13bfabd400@mhtml.blink
+
+@charset "utf-8";
+
+.css-tlelie-MuiListItemText-root { flex: 1 1 auto; min-width: 0px; margin-t=
+op: 4px; margin-bottom: 4px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c0ce6125-0a68-4f4e-a4e0-10f2705a98bb@mhtml.blink
+
+@charset "utf-8";
+
+.css-10hburv-MuiTypography-root { margin: 0px; font-family: Roboto, Helveti=
+ca, Arial, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.5;=
+ letter-spacing: 0.00938em; display: block; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4ac800f8-6f23-43b1-a5bb-69e0501f6e16@mhtml.blink
+
+@charset "utf-8";
+
+.css-0 { }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-78317c46-66f6-4b89-957a-58e853d19aa3@mhtml.blink
+
+@charset "utf-8";
+
+.css-mhc70k-MuiGrid-root { box-sizing: border-box; display: flex; flex-flow=
+: row wrap; margin-top: -16px; width: calc(100% + 16px); margin-left: -16px=
+; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-10971f20-b064-4263-9982-cb3a84048c02@mhtml.blink
+
+@charset "utf-8";
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item { padding-top: 16px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-803d70b8-46ee-4c40-b6f5-37ee5743719a@mhtml.blink
+
+@charset "utf-8";
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item { padding-left: 16px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-242fa482-1f78-4067-9c1a-56306cc329c1@mhtml.blink
+
+@charset "utf-8";
+
+.css-hqi3j4-MuiGrid-root { box-sizing: border-box; margin: 0px; flex-direct=
+ion: row; flex-basis: 45.8333%; -webkit-box-flex: 0; flex-grow: 0; max-widt=
+h: 45.8333%; text-align: center; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0ad55e7e-6954-4238-85ba-42a63d324b8a@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 600px) {
+  .css-hqi3j4-MuiGrid-root { flex-basis: 45.8333%; -webkit-box-flex: 0; fle=
+x-grow: 0; max-width: 45.8333%; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8f080337-9b4a-40f8-ae51-3efc95977daa@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 900px) {
+  .css-hqi3j4-MuiGrid-root { flex-basis: 45.8333%; -webkit-box-flex: 0; fle=
+x-grow: 0; max-width: 45.8333%; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-847dd578-90fa-4d3a-a66b-d60470675633@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 1200px) {
+  .css-hqi3j4-MuiGrid-root { flex-basis: 45.8333%; -webkit-box-flex: 0; fle=
+x-grow: 0; max-width: 45.8333%; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4ad68d7a-40bb-45c8-8376-e1eb887ee88f@mhtml.blink
+
+@charset "utf-8";
+
+@media (min-width: 1536px) {
+  .css-hqi3j4-MuiGrid-root { flex-basis: 45.8333%; -webkit-box-flex: 0; fle=
+x-grow: 0; max-width: 45.8333%; }
+}
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b065a42b-4288-4085-ba2c-b4a670e399e2@mhtml.blink
+
+@charset "utf-8";
+
+.css-3jyqq3-MuiTypography-root { margin: 0px; font-family: Roboto, Helvetic=
+a, Arial, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.5; =
+letter-spacing: 0.00938em; border-bottom: 1px solid black; border-radius: 5=
+px; padding: 5px; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b760ed92-9179-443c-896a-32025d4f6fb4@mhtml.blink
+
+@charset "utf-8";
+
+.css-1evqu2k-MuiTypography-root { margin: 0px; font-family: Roboto, Helveti=
+ca, Arial, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.5;=
+ letter-spacing: 0.00938em; border: 1px solid black; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-19d5a9f1-6d2e-4934-ae4a-e40fcec61a7d@mhtml.blink
+
+@charset "utf-8";
+
+.css-8je8zh-MuiTouchRipple-root { overflow: hidden; pointer-events: none; p=
+osition: absolute; z-index: 0; inset: 0px; border-radius: inherit; }
+------MultipartBoundary--tBjINhDl56ixLCvD58haH1O1EHy0QgEL3ixVEC2COw------

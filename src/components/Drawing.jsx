@@ -121,7 +121,7 @@ const Drawing = ({ x1, y1, x2, y2, x3, y3 ,y4}) => {
             ref={canvasRef}
             width={480}
             height={480}
-            style={{ marginLeft: "500px", border: "1px solid black" }}
+            style={{ border: "1px solid black" }}
         />
     );
 
