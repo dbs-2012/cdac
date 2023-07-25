@@ -1,22 +1,22 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Theory from "./components/Theory";
+import Home from "./components/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Triangle from "./components/Triangle";
-// import Test from "./components/Test";
-import Test2 from "./components/Test2";
 import "./style.css"
+import Navbar from "./components/Navbar/Navbar";
+import Theory from "./components/Theory/Theory";
+import Triangle from "./components/Simulation/Triangle";
+import Quiz from "./components/Test/Quiz";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/theory" element={<Theory />} />
-          <Route path='/sim' element={<Triangle/>}/>
-          <Route path='/test' element={<Test2/>}/>
+          <Route path='/sim' element={<Triangle />}/>
+          {/* <Route path='/test' element={<Test2 />}/> */}
+          <Route path='/test' element={<Quiz />}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,105 @@
+.sim-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% auto;
+    border: 1px solid grey;
+    height: max-content;
+}
+
+.sim-display-container{
+    text-align: center;
+    border: 1px solid hotpink;
+    position: relative;
+}
+
+#jxgbox{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    border: 1px solid red;
+    height: max-content;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sim-calculations{
+    float: right;
+    border: 1px solid green;
+    width: 100%;
+    display: inline;
+    height: 97vh;
+}
+
+.sim-table{
+    height: 44vh;
+    border: 1px solid black;
+}
+
+.point-names{
+    text-align: center;
+    padding: 2%;
+    font-family: 'open Sans', serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.point-coordinates{
+    margin: 0 10%;
+    margin-left: 15%;
+}
+
+.xy-coordinates{
+    margin-right: 7.5px;
+    font-family: 'open Sans', serif;
+}
+
+.sim-inputs{
+    margin-left: 7.5px;
+    padding: 2.5px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-family: 'open Sans', serif;
+}
+
+.points{
+    margin-top: 10px;
+}
+
+.coordinates{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.simulator-button{
+    padding: 2% 4%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'open Sans', serif;
+    cursor: pointer;
+    background-color: #0C2D48;
+    color: whitesmoke;
+    border: none;
+    box-shadow: 2px 5px 10px 2px grey;
+    margin-top: 10px;
+}
+
+#drawButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sim-ratios{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+
+.sim-ratios span{
+    text-align: center;
+}
+
+.sim-ratios span button{
+    padding: 4% 8%;
+}

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JSXGraph template</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js" charset="UTF-8"></script>
+
+  <!-- The next line is optional: MathJax -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+</head>
+
+<body>
+  <div class="sim-container">
+    <div class="sim-display-container">
+      <div id="jxgbox" class="jxgbox" style="max-width: 500px; aspect-ratio: 1/1"></div>
+    </div>
+
+    <div class="sim-calculations">
+      <div class="sim-table">
+      </div>
+      <div class="coordinates">
+        <label>
+          <div class="point-names">Point 1</div>
+          <div class="points">
+            <span class="point-coordinates">
+              <span class="xy-coordinates">X</span>:
+              <input type="number" id="point1X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+            <span>
+              <span class="xy-coordinates">Y</span>:
+              <input type="number" id="point1Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+          </div>
+        </label>
+      </div>
+      <div class="coordinates">
+        <label>
+          <div class="point-names">Point 2</div>
+          <div class="points">
+            <span class="point-coordinates">
+              <span class="xy-coordinates">X</span>:
+              <input type="number" id="point2X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+            <span>
+              <span class="xy-coordinates">Y</span>:
+              <input type="number" id="point2Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+          </div>
+        </label>
+      </div>
+      <div class="coordinates">
+        <label>
+          <div class="point-names">Point 3</div>
+          <div class="points">
+            <span class="point-coordinates">
+              <span class="xy-coordinates">X</span>:
+              <input type="number" id="point3X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+            <span>
+              <span class="xy-coordinates">Y</span>:
+              <input type="number" id="point3Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+            </span>
+          </div>
+        </label>
+      </div>
+      <div class="sim-buttons">
+        <div id="drawButton">
+          <button class="simulator-button" onclick="drawtriangle()">Draw Triangle</button>
+        </div>
+        <div class="sim-ratios">
+          <span>
+            <button class="simulator-button" onclick="calculateratio()">Calculate Ratio</button></span>
+          <span>
+            <button class="simulator-button" onclick="showScale()">Show Scale</button>
+          </span>
+        </div>
+      </div>
+      <!-- <button id="rotate-left" onclick="rotateLeft()">Rotate left</button>
+      <button id="rotate-right" onclick="rotateRight()">Rotate right</button> -->
+
+      <br />
+
+      <div id="ratio1"></div>
+      <div id="ratio2"></div>
+    </div>
+  </div>
+  <script>
+    // Initialize the JSXGraph board
+    let scale = false
+    var board = JXG.JSXGraph.initBoard("jxgbox", {
+      boundingbox: [-1, 15, 15, -1],
+      axis: true,
+      showCopyright: false
+    });
+
+    function showScale() {
+      if (!scale) {
+        var urlImg = "./scale.jpg";
+
+        var p0 = board.create('point', [3, 1], { size: 5, name: 'offset', opacity: 0.3 });
+
+        var p1 = board.create('point', [3, 0], { size: 5, name: 'rotate', opacity: 0.3 });
+        var im = board.create('image', [urlImg, [0, 0], [15.7, 1.5]], { fixed: true, name: 'image' });
+        var li = board.create('segment', [p0, p1], { dash: 2 });
+
+        var tOff = board.create('transform', [function () { return p0.X() }, function () { return p0.Y() }], { type: 'translate' });
+        tOff.bindTo(im);
+        tOff.bindTo(p1);
+
+        var tRot = board.create('transform', [function () { return Math.atan2(p1.Y() - p0.Y(), p1.X() - p0.X()) }, p0], { type: 'rotate' });
+        tRot.bindTo(im);
+
+        board.update();
+        scale = true
+      } else {
+        var p0 = board.select('offset');
+        var p1 = board.select('rotate');
+        var im = board.select('image');
+
+        // Remove them from the board
+        board.removeObject([p0, p1, im]);
+        scale = false
+      }
+    }
+
+
+    //Initialize all the triangle points
+
+    let all_points = {
+      x1: 0,
+      x2: 0,
+      x3: 0,
+      y1: 0,
+      y2: 0,
+      y3: 0,
+    };
+
+
+    let p1, p2, p3;
+
+    function updatevalues() {
+      all_points.x1 = parseInt(document.getElementById("point1X").value);
+      all_points.y1 = parseInt(document.getElementById("point1Y").value);
+      all_points.x2 = parseInt(document.getElementById("point2X").value);
+      all_points.y2 = parseInt(document.getElementById("point2Y").value);
+      all_points.x3 = parseInt(document.getElementById("point3X").value);
+      all_points.y3 = parseInt(document.getElementById("point3Y").value);
+    }
+
+
+    let triangle;
+    let sides;
+
+
+
+
+    function drawtriangle() {
+      p1 = board.create("point", [all_points.x1, all_points.y1], {
+        name: "Point 1",
+        size: 4,
+        color: "red",
+        attractToGrid: true,
+        attractorDistance: 10,
+        fixed: true
+      });
+      p2 = board.create("point", [all_points.x2, all_points.y2], {
+        name: "Point 2",
+        size: 4,
+        color: "red",
+        fixed: true
+      });
+      p3 = board.create("point", [all_points.x3, all_points.y3], {
+        name: "Point 3",
+        size: 4,
+        color: "red",
+        fixed: true
+      });
+
+      triangle = board.create("polygon", [p1, p2, p3], {
+        fillColor: "lightblue",
+        borders: { visible: true },
+        hasInnerPoints: false
+      });
+
+      selectbase();
+    }
+
+    let highlightStyle =
+    {
+      strokeColor: "red",
+      strokeWidth: 3,
+    };
+
+    let selectedBase = null;
+    let p;
+    let intersection1;
+    let intersection2;
+
+    function selectbase() {
+
+      sides = triangle.borders;
+
+
+      for (var i = 0; i < sides.length; i++) {
+        sides[i].on("down", function () {
+          if (selectedBase == null) {
+            this.setAttribute(highlightStyle);
+            selectedBase = this;
+            for (var j = 0; j < sides.length; j++) {
+              p1.setAttribute({ fixed: true });
+              p2.setAttribute({ fixed: true });
+              p3.setAttribute({ fixed: true });
+            }
+            parallelline();
+          }
+        });
+      }
+    }
+
+    let intersection_points = {
+      x1: 0,
+      y1: 0,
+      x2: 0,
+      y2: 0,
+    };
+    let label1;
+    let label2;
+    let vertex;
+
+    function parallelline() {
+      p = board.create(
+        "line",
+        [
+          [selectedBase.point1.X(), selectedBase.point1.Y()],
+          [selectedBase.point2.X(), selectedBase.point2.Y()],
+        ],
+        {
+          strokeColor: "green",
+          strokeWidth: 2,
+          fixed: false,
+          dash: 2,
+        }
+      );
+
+      remaining_base = [];
+      for (let k = 0; k < sides.length; k++) {
+        if (sides[k] != selectedBase) {
+          remaining_base.push(sides[k]);
+        }
+      }
+
+      intersection1 = board.create("intersection", [p, remaining_base[0], 0]);
+      intersection2 = board.create("intersection", [p, remaining_base[1], 0]);
+      intersection_points.x1 = intersection1.X();
+      intersection_points.y1 = intersection1.Y();
+      intersection_points.x2 = intersection2.X();
+      intersection_points.y2 = intersection2.Y();
+      label1 = board.create(
+        "text",
+        [intersection_points.x1, intersection_points.y1, "A"],
+        { anchorX: "right", anchorY: "bottom" }
+      );
+      label2 = board.create(
+        "text",
+        [intersection_points.x2, intersection_points.y2, "B"],
+        { anchorX: "right", anchorY: "top" }
+      );
+
+      p.on("drag", function () {
+        updateIntersectionPoints();
+      });
+    }
+
+    function updateIntersectionPoints() {
+      intersection1.remove();
+      intersection2.remove();
+      label1.remove();
+      label2.remove();
+
+      intersection1 = board.create("intersection", [p, remaining_base[0], 0]);
+      intersection2 = board.create("intersection", [p, remaining_base[1], 0]);
+      intersection_points.x1 = intersection1.X();
+      intersection_points.y1 = intersection1.Y();
+      intersection_points.x2 = intersection2.X();
+      intersection_points.y2 = intersection2.Y();
+      label1 = board.create(
+        "text",
+        [intersection_points.x1, intersection_points.y1, "A"],
+        { fixed: true, anchorX: "right", anchorY: "bottom" }
+      );
+      label2 = board.create(
+        "text",
+        [intersection_points.x2, intersection_points.y2, "B"],
+        { fixed: true, anchorX: "right", anchorY: "top" }
+      );
+
+      // console.log(intersection_points);
+    }
+
+    function calculateratio() {
+      //calculate vertex
+
+      if (!p1.isOn(selectedBase)) {
+        vertex = { x: all_points.x1, y: all_points.y1 };
+      } else if (!p2.isOn(selectedBase)) {
+        vertex = { x: all_points.x2, y: all_points.y2 };
+      } else if (!p3.isOn(selectedBase)) {
+        vertex = { x: all_points.x3, y: all_points.y3 };
+      }
+      console.log(vertex);
+
+
+      let Base_of_A;
+      let Base_of_B;
+
+      console.log(intersection1);
+
+      sides = triangle.borders;
+
+      for (let i = 0; i < sides.length; i++) {
+        if (sides[i].hasPoint(intersection1.coords.scrCoords[1], intersection1.coords.scrCoords[2])) {
+          Base_of_A = sides[i];
+
+        }
+        if (sides[i].hasPoint(intersection2.coords.scrCoords[1], intersection2.coords.scrCoords[2])) {
+
+          Base_of_B = sides[i];
+
+        }
+      }
+
+
+      // console.log(Base_of_A);
+
+
+
+
+      let A_to_vertex;
+      let B_to_vertex;
+
+      A_to_vertex = JXG.Math.Geometry.distance([intersection_points.x1, intersection_points.y1], [vertex.x, vertex.y]);
+      //console.log(A_to_vertex);
+
+      B_to_vertex = JXG.Math.Geometry.distance([intersection_points.x2, intersection_points.y2], [vertex.x, vertex.y]);
+
+
+
+      let A_to_base;
+      let B_to_base;
+      let A = [intersection_points.x1, intersection_points.y1];
+      let B = [intersection_points.x2, intersection_points.y2];
+
+
+      let endpoint1_of_base = [selectedBase.point1.X(), selectedBase.point1.Y()];
+      let endpoint2_of_base = [selectedBase.point2.X(), selectedBase.point2.Y()];
+
+
+
+      sides = triangle.borders;
+      let base_point_of_A_onside;
+
+      // base_point_of_A_onside=JXG.Math.Geometry.meetLineLine(selectedBase.stdform,Base_of_A);
+
+
+      console.log(base_point_of_A_onside);
+      // console.log(sides[0].stdform);
+      if (JXG.Math.Geometry.distance(endpoint1_of_base, A) > JXG.Math.Geometry.distance(endpoint2_of_base, A)) {
+        A_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, A);
+      }
+      else {
+        A_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, A);
+      }
+
+
+
+      if (JXG.Math.Geometry.distance(endpoint1_of_base, B) > JXG.Math.Geometry.distance(endpoint2_of_base, B)) {
+        B_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, B);
+      }
+      else {
+        B_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, B);
+      }
+
+      let ratio;
+      let ratio1 = A_to_base / A_to_vertex;
+      let ratio2 = B_to_base / B_to_vertex;
+
+      ratio = ratio1 / ratio2;
+      console.log(ratio);
+
+      document.getElementById("ratio1").innerHTML = ratio1;
+      document.getElementById("ratio2").innerHTML = ratio2;
+
+
+
+    }
+
+  </script>
+</body>
+
+</html>
