@@ -94,7 +94,8 @@
     var board = JXG.JSXGraph.initBoard("jxgbox", {
       boundingbox: [-1, 15, 15, -1],
       axis: true,
-      showCopyright: false
+      showCopyright: false,
+      pan: {enabled:true,needshift:false}
     });
 
     function showScale() {
@@ -159,6 +160,13 @@
 
 
     function drawtriangle() {
+
+       if(triangle)
+       {
+        board.removeObject([triangle,p1,p2,p3]);
+
+       }
+
       p1 = board.create("point", [all_points.x1, all_points.y1], {
         name: "Point 1",
         size: 4,
@@ -275,7 +283,10 @@
       });
     }
 
-    function updateIntersectionPoints() {
+
+
+    function updateIntersectionPoints() 
+    {
       intersection1.remove();
       intersection2.remove();
       label1.remove();
@@ -311,16 +322,18 @@
       } else if (!p3.isOn(selectedBase)) {
         vertex = { x: all_points.x3, y: all_points.y3 };
       }
-      console.log(vertex);
-
+      // console.log(vertex);
+      
+   
 
       let Base_of_A;
       let Base_of_B;
 
-      console.log(intersection1);
+      // console.log(intersection1);
 
       sides = triangle.borders;
-
+      
+      //calculation which point is on which side
       for (let i = 0; i < sides.length; i++) {
         if (sides[i].hasPoint(intersection1.coords.scrCoords[1], intersection1.coords.scrCoords[2])) {
           Base_of_A = sides[i];
@@ -336,6 +349,14 @@
 
       // console.log(Base_of_A);
 
+
+    Int_of_A_with_base = board.create('intersection',[selectedBase,Base_of_A,0],
+    {name:''});
+
+
+    Int_of_B_with_base=  board.create('intersection',[selectedBase,Base_of_B,0],
+    {name:''});
+     console.log(Int_of_A_with_base);
 
 
 
@@ -355,8 +376,8 @@
       let B = [intersection_points.x2, intersection_points.y2];
 
 
-      let endpoint1_of_base = [selectedBase.point1.X(), selectedBase.point1.Y()];
-      let endpoint2_of_base = [selectedBase.point2.X(), selectedBase.point2.Y()];
+      let endpoint1_of_base = [Int_of_A_with_base.coords.usrCoords[1],Int_of_A_with_base.coords.usrCoords[2] ];
+      let endpoint2_of_base = [Int_of_B_with_base.coords.usrCoords[1],Int_of_B_with_base.coords.usrCoords[2] ];
 
 
 
@@ -366,27 +387,29 @@
       // base_point_of_A_onside=JXG.Math.Geometry.meetLineLine(selectedBase.stdform,Base_of_A);
 
 
-      console.log(base_point_of_A_onside);
+      // console.log(base_point_of_A_onside);
       // console.log(sides[0].stdform);
-      if (JXG.Math.Geometry.distance(endpoint1_of_base, A) > JXG.Math.Geometry.distance(endpoint2_of_base, A)) {
-        A_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, A);
-      }
-      else {
+    
         A_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, A);
-      }
-
-
-
-      if (JXG.Math.Geometry.distance(endpoint1_of_base, B) > JXG.Math.Geometry.distance(endpoint2_of_base, B)) {
+      
+      
         B_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, B);
-      }
-      else {
-        B_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, B);
-      }
+      
+
+
+
+   
+
+
 
       let ratio;
       let ratio1 = A_to_base / A_to_vertex;
       let ratio2 = B_to_base / B_to_vertex;
+
+      console.log(A_to_base);
+      console.log(A_to_vertex);
+      console.log(B_to_base);
+      console.log(B_to_vertex);
 
       ratio = ratio1 / ratio2;
       console.log(ratio);
