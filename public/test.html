@@ -16,76 +16,68 @@
 <body>
   <div class="sim-container">
     <div class="sim-display-container">
-      <div id="jxgbox" class="jxgbox" style="max-width: 500px; aspect-ratio: 1/1"></div>
+      <div id="jxgbox" class="jxgbox" style=" aspect-ratio: 1/1"></div>
     </div>
 
     <div class="sim-calculations">
       <div class="sim-table">
+        <div class="sim-final-calculated-ratio">The ratio in which the triangle has been divided is: </div>
+        <div class="sim-final-calculated-ratio" id="ratio1"></div>
+        <div class="sim-final-calculated-ratio" id="ratio2"></div>
       </div>
       <div class="coordinates">
-        <label>
-          <div class="point-names">Point 1</div>
-          <div class="points">
-            <span class="point-coordinates">
-              <span class="xy-coordinates">X</span>:
-              <input type="number" id="point1X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
-            <span>
-              <span class="xy-coordinates">Y</span>:
-              <input type="number" id="point1Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
+        <div class="point-names">Point 1</div>
+        <div class="points">
+          <div class="point-coordinates">
+            <label>X :</label>
+            <input type="number" id="point1X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
           </div>
-        </label>
+          <div class="point-coordinates">
+            <label>Y :</label>
+            <input type="number" id="point1Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+          </div>
+        </div>
       </div>
       <div class="coordinates">
-        <label>
-          <div class="point-names">Point 2</div>
-          <div class="points">
-            <span class="point-coordinates">
-              <span class="xy-coordinates">X</span>:
-              <input type="number" id="point2X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
-            <span>
-              <span class="xy-coordinates">Y</span>:
-              <input type="number" id="point2Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
+        <div class="point-names">Point 2</div>
+        <div class="points">
+          <div class="point-coordinates">
+            <label>X :</label>
+            <input type="number" id="point2X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
           </div>
-        </label>
+          <div class="point-coordinates">
+            <label>Y :</label>
+            <input type="number" id="point2Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+          </div>
+        </div>
       </div>
       <div class="coordinates">
-        <label>
-          <div class="point-names">Point 3</div>
-          <div class="points">
-            <span class="point-coordinates">
-              <span class="xy-coordinates">X</span>:
-              <input type="number" id="point3X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
-            <span>
-              <span class="xy-coordinates">Y</span>:
-              <input type="number" id="point3Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
-            </span>
+        <div class="point-names">Point 3</div>
+        <div class="points">
+          <div class="point-coordinates">
+            <label>X :</label>
+            <input type="number" id="point3X" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
           </div>
-        </label>
+          <div class="point-coordinates">
+            <label>Y :</label>
+            <input type="number" id="point3Y" onchange="updatevalues()" min="0" max="10" class="sim-inputs" />
+          </div>
+        </div>
       </div>
+
       <div class="sim-buttons">
         <div id="drawButton">
           <button class="simulator-button" onclick="drawtriangle()">Draw Triangle</button>
         </div>
         <div class="sim-ratios">
-          <span>
-            <button class="simulator-button" onclick="calculateratio()">Calculate Ratio</button></span>
-          <span>
+          <div class="btn-calculation">
+            <button class="simulator-button" onclick="calculateratio()">Calculate Ratio</button>
+          </div>
+          <div class="btn-calculation">
             <button class="simulator-button" onclick="showScale()">Show Scale</button>
-          </span>
+          </div>
         </div>
       </div>
-      <!-- <button id="rotate-left" onclick="rotateLeft()">Rotate left</button>
-      <button id="rotate-right" onclick="rotateRight()">Rotate right</button> -->
-
-      <br />
-
-      <div id="ratio1"></div>
-      <div id="ratio2"></div>
     </div>
   </div>
   <script>
@@ -95,7 +87,7 @@
       boundingbox: [-1, 15, 15, -1],
       axis: true,
       showCopyright: false,
-      pan: {enabled:true,needshift:false}
+      pan: { enabled: true, needshift: false }
     });
 
     function showScale() {
@@ -161,11 +153,10 @@
 
     function drawtriangle() {
 
-       if(triangle)
-       {
-        board.removeObject([triangle,p1,p2,p3]);
+      if (triangle) {
+        board.removeObject([triangle, p1, p2, p3]);
 
-       }
+      }
 
       p1 = board.create("point", [all_points.x1, all_points.y1], {
         name: "Point 1",
@@ -285,8 +276,7 @@
 
 
 
-    function updateIntersectionPoints() 
-    {
+    function updateIntersectionPoints() {
       intersection1.remove();
       intersection2.remove();
       label1.remove();
@@ -323,8 +313,8 @@
         vertex = { x: all_points.x3, y: all_points.y3 };
       }
       // console.log(vertex);
-      
-   
+
+
 
       let Base_of_A;
       let Base_of_B;
@@ -332,7 +322,7 @@
       // console.log(intersection1);
 
       sides = triangle.borders;
-      
+
       //calculation which point is on which side
       for (let i = 0; i < sides.length; i++) {
         if (sides[i].hasPoint(intersection1.coords.scrCoords[1], intersection1.coords.scrCoords[2])) {
@@ -350,13 +340,13 @@
       // console.log(Base_of_A);
 
 
-    Int_of_A_with_base = board.create('intersection',[selectedBase,Base_of_A,0],
-    {name:''});
+      Int_of_A_with_base = board.create('intersection', [selectedBase, Base_of_A, 0],
+        { name: '' });
 
 
-    Int_of_B_with_base=  board.create('intersection',[selectedBase,Base_of_B,0],
-    {name:''});
-     console.log(Int_of_A_with_base);
+      Int_of_B_with_base = board.create('intersection', [selectedBase, Base_of_B, 0],
+        { name: '' });
+      console.log(Int_of_A_with_base);
 
 
 
@@ -376,8 +366,8 @@
       let B = [intersection_points.x2, intersection_points.y2];
 
 
-      let endpoint1_of_base = [Int_of_A_with_base.coords.usrCoords[1],Int_of_A_with_base.coords.usrCoords[2] ];
-      let endpoint2_of_base = [Int_of_B_with_base.coords.usrCoords[1],Int_of_B_with_base.coords.usrCoords[2] ];
+      let endpoint1_of_base = [Int_of_A_with_base.coords.usrCoords[1], Int_of_A_with_base.coords.usrCoords[2]];
+      let endpoint2_of_base = [Int_of_B_with_base.coords.usrCoords[1], Int_of_B_with_base.coords.usrCoords[2]];
 
 
 
@@ -389,16 +379,16 @@
 
       // console.log(base_point_of_A_onside);
       // console.log(sides[0].stdform);
-    
-        A_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, A);
-      
-      
-        B_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, B);
-      
+
+      A_to_base = JXG.Math.Geometry.distance(endpoint1_of_base, A);
+
+
+      B_to_base = JXG.Math.Geometry.distance(endpoint2_of_base, B);
 
 
 
-   
+
+
 
 
 
