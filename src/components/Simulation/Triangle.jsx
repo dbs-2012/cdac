@@ -63,8 +63,8 @@ const Triangle = () => {
           {
             btn &&
             <div className="all-steps-container">
-            <ol type="I">
-              {steps.map(s => <li key={s} className="all-steps">{s}</li>)}
+              <ol type="I">
+                {steps.map(s => <li key={s} className="all-steps">{s}</li>)}
               </ol>
             </div>
           }
