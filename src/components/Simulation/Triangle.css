@@ -4,8 +4,8 @@
 .left-sidebar-container{
     float: left;
     width: 25%;
-    height: 90.8vh;
-    box-shadow: 5px 5px 10px 10px rgb(226, 226, 226);
+    height: 90.5vh;
+    /* box-shadow: 5px 5px 10px 10px rgb(226, 226, 226); */
 }
 
 .left-sidebar{
@@ -65,24 +65,25 @@
 
 .display-all-steps-container{
     margin: 5% auto;
-    padding: 5%;
+    padding: 5% 3%;
     border-top: 1px solid #0C2D48;
 }
 
 .display-steps-button{
     text-align: center;
+    margin-bottom: 7%;
 }
 
-.all-steps-container li{
-    margin-top: 2%;
+.all-steps-container ol li{
+    margin-bottom: 5%;
     font-size: 1.1rem;
     font-family: 'GFS Didot', serif;
     font-weight: 400;
-    list-style: upper-roman;
 }
 
 .all-steps-container{
-    margin: 7% 4%;
+    margin: 3%;
     overflow-y: scroll;
-    height: 38vh;
+    height: 37vh;
+
 }
