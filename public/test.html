@@ -26,11 +26,23 @@
       </div>
       <div class="left-sidebar-buttons">
         <div class="prev">
-          <button class="side-buttons" onclick="displayPrev()">Prev</button>
+          <!-- <button class="side-buttons" onclick="displayPrev()">Prev</button> -->
         </div>
         <div class="next">
-          <button class="side-buttons" onclick="displayNext()">Next</button>
+          <button id="next" class="side-buttons" onclick="displayNext()">Next</button>
         </div>
+      </div>
+      <button type="button" class="collapsible">View All Steps</button>
+      <div class="content">
+        <p>Input the values of x and y coordinates of the three vertices of the triangle in the specified fields.
+          <br>Once all coordinates have been entered click on the draw triangle button to get the triangle on the
+          graph. <br>Click on the points of the base of the triangle to get a line parallel to the base. <br>Drag the
+          line drawn on the base parallel to base to divide the sides of the triangle. <br>Click on the Use scale
+          button to get the scale on the graph. <br>With the help of the scale measure the sides of the triangle
+          bisected by the parallel line to the base and note them down. <br>With the noted down the lengths of the
+          bisected sides calculate the ratio. <br>Use the Calculate ratio button to get the ratio and compare the
+          correctness of the one calculated by you.
+        </p>
       </div>
     </div>
   </div>
@@ -125,8 +137,8 @@
       if (currentStep < steps.length - 1) {
         currentStep++;
         step = steps[currentStep];
-      }
-      document.getElementById('count').innerText = count + 1;
+      } else document.getElementById('next').innerText = "Completed!";
+      document.getElementById('count').innerText = currentStep + 1;
       document.getElementById('step').innerText = step;
       incrementStep()
     }
@@ -136,10 +148,10 @@
         currentStep--;
         step = steps[currentStep];
       }
-      document.getElementById('count').innerText = count + 1;
+      document.getElementById('count').innerText = currentStep + 1;
       document.getElementById('step').innerText = step;
     }
-    document.getElementById('count').innerText = count + 1;
+    document.getElementById('count').innerText = currentStep + 1;
     document.getElementById('step').innerText = step;
     // Initialize the JSXGraph board
     let scale = false
@@ -161,6 +173,7 @@
       document.getElementById('draw-btn').disabled = true;
       document.getElementById('ratio-btn').disabled = true;
       document.getElementById('scale-btn').disabled = true;
+      
       if (currentStep == 0) {
         document.getElementById('point1X').disabled = false;
         document.getElementById('point1Y').disabled = false;
@@ -179,6 +192,22 @@
         document.getElementById('ratio-btn').disabled = false;
       }
       // Add more conditions for additional steps
+    }
+
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
     }
 
     function showScale() {

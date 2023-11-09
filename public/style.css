@@ -29,12 +29,12 @@
     float: right;
     width: 100%;
     display: inline;
-    height: 97.5vh;
+    height: 95.5vh;
     border-left: 1px solid #0C2D48;
 }
 
 .sim-table{
-    height: 30vh;
+    height: 25vh;
     padding: 5%;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
 .left-sidebar-container{
     float: left;
     width: 25%;
-    height: 90.8vh;
+    height: 95.8vh;
     box-shadow: 5px 5px 10px 10px rgb(226, 226, 226);
 }
 
@@ -176,6 +176,39 @@
 .next{
     text-align: end;
 }
+
+.collapsible {
+background-color: #0C2D48;
+margin-top: 10px;
+border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #0C2D48;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+      border-radius: 20px;
+      max-height: 250px;
+    overflow-y: scroll;
+    font-size: 1.1rem;
+    font-family: 'GFS Didot', serif;
+    font-weight: 400;
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    scrollbar-color: #0C2D48;
+  }
 
 .side-buttons{
     padding: 4% 8%;
