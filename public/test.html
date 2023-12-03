@@ -34,13 +34,9 @@
       </div>
       <button type="button" class="collapsible">View All Steps</button>
       <div class="content">
-        <p>Input the values of x and y coordinates of the three vertices of the triangle in the specified fields.
-          <br>Once all coordinates have been entered click on the draw triangle button to get the triangle on the
-          graph. <br>Click on the points of the base of the triangle to get a line parallel to the base. <br>Drag the
-          line drawn on the base parallel to base to divide the sides of the triangle. <br>Click on the Use scale
-          button to get the scale on the graph. <br>With the help of the scale measure the sides of the triangle
-          bisected by the parallel line to the base and note them down. <br>With the noted down the lengths of the
-          bisected sides calculate the ratio. <br>Use the Calculate ratio button to get the ratio and compare the
+        <p><b>Step 1 : </b>Input the values of x and y coordinates of the three vertices of the triangle in the specified fields.
+          <br><b>Step 2 : </b>Once all coordinates have been entered click on the draw triangle button to get the triangle on the
+          graph. <br><b>Step 3 : </b>Click on the points of the base of the triangle to get a line parallel to the base. <br><b>Step 4 : </b>Drag the line drawn on the base parallel to base to divide the sides of the triangle. <br><b>Step 5 : </b>Click on the Use scale button to get the scale on the graph. <br><b>Step 6 : </b>With the help of the scale measure the sides of the triangle bisected by the parallel line to the base and note them down. <br><b>Step 7 : </b>With the noted down the lengths of the bisected sides calculate the ratio. <br><b>Step 8 : </b>Use the Calculate ratio button to get the ratio and compare the
           correctness of the one calculated by you.
         </p>
       </div>
@@ -53,11 +49,13 @@
       </div>
 
       <div class="sim-calculations">
-        <div class="sim-table">
-          <div class="sim-final-calculated-ratio">The ratio in which the triangle has been divided is: </div>
+        <div class="sim-table-container">
+        <div class="sim-table" id="sim-tab">
+          <div class="sim-final-calculated-ratio">Hence, we can see that a line drawn parallel to the base of the triangle divides the sides in equal ratios of: </div>
           <div class="sim-final-calculated-ratio" id="ratio1"></div>
           --------------------------
           <div class="sim-final-calculated-ratio" id="ratio2"></div>
+        </div>
         </div>
         <div class="coordinates">
           <div class="point-names">Point 1</div>
@@ -306,6 +304,8 @@
       });
 
       selectbase();
+      tri = document.getElementById("draw-btn")
+      tri.className = "disableButton";
     }
 
     let highlightStyle =
@@ -520,6 +520,11 @@
 
       document.getElementById("ratio1").innerHTML = ratio1.toFixed(2);
       document.getElementById("ratio2").innerHTML = ratio2.toFixed(2);
+      
+      calculateRatio = document.getElementById('ratio-btn')
+      calculateRatio.className = ('disableButton')
+      simTable = document.getElementsByClassName('sim-table')
+      simTable.stye.display = "flex";
     }
 
   </script>

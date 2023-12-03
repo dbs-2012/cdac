@@ -33,6 +33,10 @@
     border-left: 1px solid #0C2D48;
 }
 
+.sim-table-container{
+    border-bottom: 1px solid #0C2D48;
+}
+
 .sim-table{
     height: 25vh;
     padding: 5%;
@@ -41,7 +45,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border-bottom: 1px solid #0C2D48;
+    display: none;
 }
 
 .sim-final-calculated-ratio{
@@ -111,6 +115,20 @@
     justify-content: center;
 }
 
+.disableButton{
+    padding: 2% 4%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'open Sans', serif;
+    cursor: pointer;
+    background-color: rgb(83, 92, 99);
+    color: whitesmoke;
+    border: none;
+    box-shadow: 2px 5px 10px 2px grey;
+    margin-top: 4%;
+    cursor: not-allowed;
+}
+
 .sim-ratios{
     display: grid;
     grid-template-columns: auto auto;
@@ -125,9 +143,6 @@
     padding: 4% 8%;
     border-radius: 5px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
 .left-sidebar-container{
     float: left;
@@ -157,7 +172,7 @@
 }
 
 .steps-slideshow-container{
-    height: 34vh;
+    height: 30vh;
     padding: 2%;
     font-size: 1.3rem;
     font-family: 'GFS Didot', serif;
@@ -178,17 +193,20 @@
 }
 
 .collapsible {
-background-color: #0C2D48;
-margin-top: 10px;
-border-radius: 10px;
+    background-color: #0C2D48;
+    margin-top: 8%;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 1.2rem;
+    font-family: 'GFS Didot', serif;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -198,8 +216,8 @@ border-radius: 10px;
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-      border-radius: 20px;
-      max-height: 250px;
+    border-radius: 20px;
+    max-height: 250px;
     overflow-y: scroll;
     font-size: 1.1rem;
     font-family: 'GFS Didot', serif;
