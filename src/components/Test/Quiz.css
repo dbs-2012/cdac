@@ -121,3 +121,56 @@
 .score{
   margin: 10% auto;
 }
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 40%;
+  }
+  .option-container{
+    padding: 2% 4%;
+  }
+  .option-btn{
+    min-height: 3vh;
+    font-size: 1rem;
+    margin: 1.4%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 80%;
+  }
+  .question {
+    padding: 1%;
+  }
+  .option-container{
+    padding: 2%;
+  }
+  .option-btn{
+    min-height: 2vh;
+    font-size: 1rem;
+    margin: 1.2%;
+  }
+  #next-button{
+  padding: 1.5%;
+    
+  }
+}
+@media only screen and (max-width: 350px) {
+  .container {
+    width: 100%;
+  }
+  .question {
+    padding: 1%;
+  }
+  .option-container{
+    padding: 2%;
+  }
+  .option-btn{
+    min-height: 2vh;
+    font-size: 1rem;
+    margin: 1.1%;
+  }
+  #next-button{
+    padding: 1.5%;
+  }
+}

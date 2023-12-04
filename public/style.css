@@ -45,7 +45,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    display: none;
+    visibility: hidden;
 }
 
 .sim-final-calculated-ratio{
