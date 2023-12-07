@@ -48,10 +48,19 @@
     visibility: hidden;
 }
 
+.sim-final-calculated-ratio-text{
+    font-size: 1.3rem;
+    font-family: 'GFS Didot', serif;
+    font-weight: 400;
+    border-bottom: 1px solid #0C2D48;
+    /* border-style: dashed; */
+}
+
 .sim-final-calculated-ratio{
     font-size: 1.3rem;
     font-family: 'GFS Didot', serif;
     font-weight: 400;
+    border-bottom: 1px solid #0C2D48;
 }
 
 .coordinates{
