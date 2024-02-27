@@ -66,25 +66,51 @@
               Hence, we can see that a line drawn parallel to the base of the
               triangle divides the sides in equal ratios of:
             </div>
-            <div class="sim-final-calculated-ratio" id="ratio1"></div>
-            <div class="sim-final-calculated-ratio" id="ratio2"></div>
-            <div class="sim-inputs-container">
-              <label for="sideLength1">Intercepted Side 1:</label>
-              <input type="number" id="sideLength1" class="sim-inputs" />
-              <label for="sideLength2">Intercepted Side 2:</label>
-              <input type="number" id="sideLength2" class="sim-inputs" />
-              <label for="sideLength3">Intercepted Side 3:</label>
-              <input type="number" id="sideLength3" class="sim-inputs" />
-              <label for="sideLength4">Intercepted Side 4:</label>
-              <input type="number" id="sideLength4" class="sim-inputs" />
+            <div class="sim-final-calculation">
+              <div class="sim-final">
+                <div class="sim-final-calculated firstRatio">PA / AQ</div>
+                <div class="sim-final-calculated">PB / BR</div>
+              </div>
+              <div class="sim-final-equal">
+                =
+              </div>
+              <div class="sim-final">
+                <div class="sim-final-calculated-ratio firstRatio" id="ratio1"></div>
+                <div class="sim-final-calculated-ratio" id="ratio2"></div>
+              </div>
             </div>
-            <button id="calculateRatioButton" onclick="calculateUserRatio()">Show Ratio</button>
+            <div class="sim-inputs-container">
+              <div class="sim-inputs-cont">
+                <div class="sim-inputs-container-labels">
+                  <label for="sideLength1">PA:</label>
+                  <input type="number" id="sideLength1" class="sim-inputs" />
+                </div>
+                <div class="sim-inputs-container-labels">
+                  <label for="sideLength2">AQ:</label>
+                  <input type="number" id="sideLength2" class="sim-inputs" />
+                </div>
+              </div>
+              <div class="sim-inputs-cont">
+                <div class="sim-inputs-container-labels">
+                  <label for="sideLength3">PB:</label>
+                  <input type="number" id="sideLength3" class="sim-inputs" />
+                </div>
+                <div class="sim-inputs-container-labels">
+                  <label for="sideLength4">BR:</label>
+                  <input type="number" id="sideLength4" class="sim-inputs" />
+                </div>
+              </div>
+            </div>
+            <div class="calculateRatioButton">
+              <button class="simulator-button" id="calculateRatioButton" onclick="calculateUserRatio()">Show
+                Ratio</button>
+            </div>
             <div class="sim-final-calculated-ratio" id="ratio1-cal"></div>
             <div class="sim-final-calculated-ratio" id="ratio2-cal"></div>
           </div>
         </div>
         <div class="coordinates">
-          <div class="point-names">Point 1</div>
+          <div class="point-names">P : </div>
           <div class="points">
             <div class="point-coordinates">
               <label>X :</label>
@@ -97,7 +123,7 @@
           </div>
         </div>
         <div class="coordinates">
-          <div class="point-names">Point 2</div>
+          <div class="point-names">Q : </div>
           <div class="points">
             <div class="point-coordinates">
               <label>X :</label>
@@ -110,7 +136,7 @@
           </div>
         </div>
         <div class="coordinates">
-          <div class="point-names">Point 3</div>
+          <div class="point-names">R : </div>
           <div class="points">
             <div class="point-coordinates">
               <label>X :</label>
@@ -137,7 +163,7 @@
             </div>
             <div class="btn-calculation">
               <button id="scale-btn" class="simulator-button" onclick="showScale()">
-                Show Scale
+                Use Scale
               </button>
             </div>
           </div>
@@ -398,7 +424,7 @@
       }
 
       p1 = board.create("point", [all_points.x1, all_points.y1], {
-        name: "Point 1",
+        name: "P",
         size: 4,
         color: "red",
         attractToGrid: true,
@@ -406,13 +432,13 @@
         fixed: true,
       });
       p2 = board.create("point", [all_points.x2, all_points.y2], {
-        name: "Point 2",
+        name: "Q",
         size: 4,
         color: "red",
         fixed: true,
       });
       p3 = board.create("point", [all_points.x3, all_points.y3], {
-        name: "Point 3",
+        name: "R",
         size: 4,
         color: "red",
         fixed: true,
